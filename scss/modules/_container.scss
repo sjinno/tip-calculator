@@ -1,0 +1,13 @@
+.container {
+    background-color: #fff;
+    min-height: 100vh;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 2rem;
+
+    &--result {
+        background-color: $clr-very-dark-cyan;
+        padding: 2.75rem 1.5rem 1.5rem 1.5rem;
+        border-radius: 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+.section {
+    padding-bottom: 2.5rem;
+
+    &__title {
+        font-size: 0.9375rem;
+        font-weight: 600;
+        color: $clr-dark-grayish-cyan-strong;
+        padding-bottom: 0.5rem;
+    }
+}

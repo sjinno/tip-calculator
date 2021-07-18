@@ -7,36 +7,62 @@
 
 body {
   background-color: #c5e4e7;
+  font-family: "Space Mono", "Liberation Mono", monospace;
+}
+
+.app-logo {
+  display: block;
+  margin-inline: auto;
+  margin-block: 3rem 2.5rem;
 }
 
 input[type="text"] {
   text-align: right;
   border: none;
   font-size: 1.5rem;
+  background-color: #f4fafa;
+  color: #00494d;
+  font-weight: 700;
 }
 
-input:focus {
-  outline: none;
-  border: none;
+.container {
+  background-color: #fff;
+  min-height: 100vh;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 2rem;
 }
 
-.bill {
-  font-family: "Space Mono", "Liberation Mono", monospace;
+.container--result {
+  background-color: #00494d;
+  padding: 2.75rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.section {
+  padding-bottom: 2.5rem;
+}
+
+.section__title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #5e7a7d;
+  padding-bottom: 0.5rem;
 }
 
 .input {
   position: relative;
   height: 3rem;
-  background-color: antiquewhite;
+  background-color: #f4fafa;
 }
 
 .input__field {
   position: absolute;
   top: 50%;
-  right: 1.125rem;
+  right: 1.5rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 85%;
+  width: 80%;
 }
 
 .input__icon {
@@ -54,5 +80,94 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #00494d;
+  font-size: 1.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #006166;
+}
+
+.btn:focus {
+  background-color: #26c0ab;
+  color: #00494d;
+}
+
+.btn--custom {
+  color: #5e7a7d;
+  background-color: #f4fafa;
+  text-align: right;
+}
+
+.btn--custom:hover {
+  background-color: #e2f0f3;
+}
+
+.btn--result {
+  background-color: #26c0ab;
+  color: #00494d;
+  display: block;
+  margin-inline: auto;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.btn--result:hover {
+  background-color: #2ad5be;
+}
+
+.btn--large {
+  width: 100%;
+}
+
+.tip {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (47.5%)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 47.5%);
+  gap: 0.9375rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.result {
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.result__wrapper {
+  position: relative;
+}
+
+.result__title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  padding-bottom: 0.5rem;
+}
+
+.result__sub-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #96aeb0;
+}
+
+.result__result {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #26c0ab;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,16 +1,14 @@
 .input {
     position: relative;
     height: 3rem;
-    background-color: antiquewhite;
-    // width: 90%;
-    // margin-inline: auto;
+    background-color: $clr-light-grayish-cyan;
 
     &__field {
         position: absolute;
         top: 50%;
-        right: 1.125rem;
+        right: 1.5rem;
         transform: translateY(-50%);
-        width: 85%;
+        width: 80%;
     }
 
     &__icon {

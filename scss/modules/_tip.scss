@@ -1,0 +1,7 @@
+.tip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 47.5%);
+    gap: 0.9375rem;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}

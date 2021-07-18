@@ -27,36 +27,62 @@
 
 <body>
 
-  <div class="bill">
-    <p class="bill__title">Bill</p>
-    <div class="input">
-      <input type="text" class="input__field">
-      <span class="input__icon"><img src="images/icon-dollar.svg" alt="dollar icon"></span>
+  <img src="images/logo.svg" alt="tip calculator logo" class="app-logo">
+
+  <div class="container">
+    <div class="section">
+      <p class="section__title">Bill</p>
+      <div class="input">
+        <input type="text" class="input__field">
+        <span class="input__icon"><img src="images/icon-dollar.svg" alt="dollar icon"></span>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="section__title">Select Tip %</p>
+      <div class="tip">
+        <a href="#" class="btn tip__selection">5%</a>
+        <a href="#" class="btn tip__selection">10%</a>
+        <a href="#" class="btn tip__selection">15%</a>
+        <a href="#" class="btn tip__selection">25%</a>
+        <a href="#" class="btn tip__selection">50%</a>
+        <a href="#" class="btn btn--custom tip__selection">Custom</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="section__title">Number of People</p>
+      <div class="input">
+        <input type="text" class="input__field">
+        <span class="input__icon"><img src="images/icon-person.svg" alt="person icon"></span>
+      </div>
+    </div>
+
+
+    <div class="container--result">
+      <div class="result">
+        <div class="result__wrapper">
+          <p class="result__title">Tip Amount</p>
+          <p class="result__sub-title">/ person</p>
+          <span class="result__result">$0.00</span>
+        </div>
+      </div>
+
+      <div class="result">
+        <div class="result__wrapper">
+          <p class="result__title">Total</p>
+          <p class="result__sub-title">/ person</p>
+          <span class="result__result">$0.00</span>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn--result btn--large">Reset</a>
     </div>
   </div>
 
-  <!-- Bill
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>

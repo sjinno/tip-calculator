@@ -1,0 +1,30 @@
+.result {
+    padding-bottom: 2rem;
+    color: $clr-white;
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 0.9375rem;
+        padding-bottom: 0.5rem;
+    }
+
+    &__sub-title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: hsl(184, 14%, 64%);
+    }
+
+    &__result {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $clr-strong-cyan;
+    }
+
+}

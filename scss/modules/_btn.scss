@@ -1,0 +1,46 @@
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: $clr-very-dark-cyan;
+    font-size: 1.5rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    text-align: center;
+
+    &:hover {
+        background-color: hsl(183, 100%, 20%);
+    }
+
+    &:focus {
+        background-color: $clr-strong-cyan;
+        color: $clr-very-dark-cyan;
+    }
+
+    &--custom {
+        color: $clr-dark-grayish-cyan-strong;
+        background-color: $clr-light-grayish-cyan;
+        text-align: right;
+
+        &:hover {
+            background-color: hsl(189, 41%, 92%);
+        }
+    }
+
+    &--result {
+        background-color: $clr-strong-cyan;
+        color: $clr-very-dark-cyan;
+        display: block;
+        margin-inline: auto;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+
+        &:hover {
+            background-color: hsl(172, 67%, 50%);
+        }
+    }
+
+    &--large {
+        width: 100%;
+    }
+}

@@ -6,15 +6,25 @@
 
 body {
     background-color: hsl(185, 41%, 84%);
+    font-family: $mono-font;
+}
+
+.app-logo {
+    display: block;
+    margin-inline: auto;
+    margin-block: 3rem 2.5rem;
 }
 
 input[type="text"] {
     text-align: right;
     border: none;
     font-size: 1.5rem;
+    background-color: $clr-light-grayish-cyan;
+    color: $clr-very-dark-cyan;
+    font-weight: 700;
 }
 
-input:focus {
-    outline: none;
-    border: none;
-}
+// input:focus {
+//     outline: none;
+//     border: none;
+// }
