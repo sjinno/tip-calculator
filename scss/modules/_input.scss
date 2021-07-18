@@ -1,0 +1,25 @@
+.input {
+    position: relative;
+    height: 3rem;
+    background-color: antiquewhite;
+    // width: 90%;
+    // margin-inline: auto;
+
+    &__field {
+        position: absolute;
+        top: 50%;
+        right: 1.125rem;
+        transform: translateY(-50%);
+        width: 85%;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 1.125rem;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
